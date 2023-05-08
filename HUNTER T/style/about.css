@@ -1,0 +1,187 @@
+@font-face {
+    font-family: face;
+    src: url(/assets/ethnocentric\ rg.otf);
+}
+@font-face {
+    font-family: my;
+    src: url(/assets/LGGothic.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+   color: black;
+   cursor: grab;
+}
+.circle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #272727;
+    pointer-events: none;
+    transition: all 0.2s ease-out;
+  }
+
+
+div h3{
+    float:left;
+    color: black;
+    text-decoration: none;
+}
+.header{
+    min-height: 70vh;
+    width: 100%;
+    background-image:url(/assets/photos/mal.jpg);
+    background-position:100%;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.name{
+    float:left;
+}
+.navlinks{
+    flex: 1;
+    text-align: right;
+    font-family: face;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.active{
+    height: 3px;
+    background: black;
+    font-weight: bold;
+    display:block;
+    margin: auto;
+    width: 100%;
+}
+
+.textbox{
+    font-size: 30px;
+    font-family:face;
+    width: 90%;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%,-30%);
+    text-align: center;
+}
+
+
+section{
+    width: 100%;
+    min-height: 100vh;
+}
+section h3,h1{
+    font-family: face;
+    font-weight: 200px;
+}
+.section p{
+    font-family:my;
+}
+.sections p{
+    font-family:my
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.imagesection{
+    float: right;
+    width: 40%;
+}
+.imagesection img{
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sections{
+    width: 100%;
+    min-height: 80vh;
+    
+
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.containers{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 70px;
+}
+.content-sections{
+    float: right;
+    width: 55%;
+}
+.imagesections{
+    float: left;
+    width: 40%;
+}
+.imagesections img{
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+.vid{
+    margin-top:80px;
+    transform: translate(40%, 1%);
+    width: 40%;
+}
+div h2{
+    transform: translate(60%, 50%);
+    font-family: face;
+}
+
+
+
+        
+
+.footer{
+    min-height: 10vh;
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.abus{
+    color: #777;
+    margin-bottom: 20px;
+}
+.co{
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+}
+
+

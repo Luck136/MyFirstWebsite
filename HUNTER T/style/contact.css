@@ -1,0 +1,110 @@
+
+ 
+.circle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #272727;
+    pointer-events: none;
+    transition: all 0.2s ease-out;
+  }
+.headers{
+    min-height: 60vh;
+    width: 100%;
+    background-image:url(/assets/photos/tourist.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+} 
+div h3{
+    float:left;
+    color: white;
+    text-decoration: none;
+}
+
+.textboxs{
+    font-size: 62px;
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    text-align: center;
+}
+.location{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    pad: 80px 0px;
+   
+}
+.location iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin-top: 50px;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    float: left;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col div .fa{
+    font-size: 23px;
+    margin: 10px;
+    margin-right: 30px;
+}
+.contact-col div p{
+    padding: 0;
+    font-family: face;
+}
+.contact-col div h5{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 30px;
+    font-family: face;
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid black;
+}
+.herobtn{
+    background-color: black;
+    color: white;
+    border:none;
+    font-family: face;
+    border-radius: 2px;
+    padding: 15px 22px;
+    cursor: pointer;
+    margin-top: 7px; 
+}
+
+
+.footers{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+.abuss{
+    color: #777;
+    margin-bottom: 20px;
+}
+.cos{
+    margin-top: 20px;
+    color: #777;
+}

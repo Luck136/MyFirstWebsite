@@ -1,0 +1,141 @@
+@font-face {
+    font-family: face;
+    src: url(/assets/ethnocentric\ rg.otf);
+}
+.back a {
+  text-decoration: none;
+  color: black;
+}
+
+
+img{
+  width:960px;
+  height: auto;
+}
+.name{
+  font-size: 24px;
+  font-family: face;
+}
+
+.iconss{
+  font-size: 20px;
+}
+.iconss i{
+  margin-left: 30px;
+}
+.description{
+  font-family: face;
+}
+.description i{
+  margin-bottom: 9px;
+}
+.iconss span{
+  font-family: face;
+  font-size: 14px;
+}
+.fa-star{
+  color: goldenrod;
+}
+.fa-check{
+  color: green;
+  margin-left: 0;
+}
+.bags{
+  margin-top: 30px;
+  font-family: face;
+}
+.bags i{
+  margin-bottom: 25px;
+}
+
+
+
+.rectangle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 70px;
+}
+
+
+.rectangle ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.rectangle li{
+  margin-bottom: 20px;
+}
+
+.rectangle ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 35px 40px;
+}
+ul li {
+  font-family: face;
+}
+.rectangle ul li i {
+  margin-right: 5px;
+}
+.rectangle button{
+  padding: 4px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: goldenrod;
+  border: none;
+  border: 1px solid black;
+  font-family: face;
+}
+.fass{
+  font-size: 20px;
+  font-family: face; 
+  background-color: goldenrod;
+}
+.fass span{
+  font-family: face;
+  margin-right: 16px;
+}
+.ricx{
+  width: 40px;
+  border: navajowhite;
+  margin-left: 5px;
+  margin-right:7px ;
+  text-align: center;
+  padding: 8px 10px;
+}
+.calen input{
+  padding: 8px 10px;
+  font-size: 15px;
+  font-family: face;
+  text-align: left;
+  border:navajowhite ;
+}
+.calen span{
+  font-size: 15px;
+  font-family: face;
+}
+
+
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+.abus{
+  color: #777;
+  margin-bottom: 20px;
+}
+.co{
+  margin-top: 20px;
+  color: #777;
+}
+
